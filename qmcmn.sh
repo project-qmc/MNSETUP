@@ -144,7 +144,7 @@ while [[ ! -f ~/qmnsetup.sh ]] || [[ $( grep -Fxc "# End of masternode setup scr
 do
   rm -f ~/qmnsetup.sh
   echo "Downloading Masternode Setup Script."
-  wget wget -4qo- https://transfer.sh/tib6V/setup.sh -O ~/qmnsetup.sh
+  wget wget -4qo- https://raw.githubusercontent.com/project-qmc/MNSETUP/master/setup.sh -O ~/qmnsetup.sh
   COUNTER=$((COUNTER+1))
   if [[ "${COUNTER}" -gt 3 ]]
   then
