@@ -8,4 +8,5 @@ If it does not identify the tx after you enter it or returns an error:
 - just leave it empty and add it after the script is finished.
 
 Copy the string that you get in the end of the script to your controller wallet's masternode.conf file.
+
 Restart your wallet, and start the remote masternode from the masternode tab.
