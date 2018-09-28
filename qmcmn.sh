@@ -1,14 +1,6 @@
 #!/usr/bin/env bash
 
-# Copyright (c) 2018
-# All rights reserved.
 # THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND.
-
-# Run this file
-# bash <(wget -4qO- -o- https://gist.githubusercontent.com/mikeytown2/5ce58af9fbfbcbd2e456e44e9ad66ad3/raw/qmcd.sh) ; source /root/.bashrc
-# bash -c "$(wget -4qO- -o- goo.gl/b8VEKj)" -- starting_username_number txhash outputindex genkey skip_last_confirm ; source /root/.bashrc
-# screen -d -m bash -c "$(wget -4qO- -o- goo.gl/b8VEKj)" -- -1 0 -1 -1 Y ; source /root/.bashrc
-# bash -c "$(wget -4qO- -o- goo.gl/b8VEKj)" ; source /root/.bashrc
 
 # Chars for spinner.
 SP="/-\\|"
