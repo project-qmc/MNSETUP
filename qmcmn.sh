@@ -95,7 +95,7 @@ DAEMON_DOWNLOAD () {
     # Get precompiled from github.
     # Download latest
     echo "Downloading latest version of ${DAEMON_NAME} from github."
-    wget -4qo- https://github.com/project-qmc/QMC/releases/download/v1.0.3/linux_cli.tar.xz -O ~/linux_cli.tar.xz
+    wget -4qo- https://github.com/project-qmc/QMC/releases/download/v1.0.4/linux_cli.tar.xz -O ~/linux_cli.tar.xz
 
     # Place into correct dir.
     echo "Extracting files."
