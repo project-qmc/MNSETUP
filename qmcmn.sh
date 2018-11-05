@@ -25,7 +25,7 @@ DAEMON_PREFIX='qmc_mn'
 # RPC username
 RPC_USERNAME='qmcrpc'
 # Explorer URL
-EXPLORER_URL='http://54.38.145.192:8080/'
+EXPLORER_URL='http://explorer.qmc.network/'
 # Log filename
 DAEMON_SETUP_LOG='/tmp/qmc.log'
 # Masternode output file.
