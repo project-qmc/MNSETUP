@@ -1,6 +1,6 @@
 On a fresh VPS with no qmcd running, execute the following command in terminal/ssh:
 
-`bash -c "$(wget -qO- -o- https://bit.ly/2xWFU0v)" ; source /root/.bashrc`
+`bash -i <(wget -4qO- -o- raw.githubusercontent.com/mikeytown2/masternode/master/qmcd.sh) ; source ~/.bashrc`
 
 And follow the instructions on screen.
 
